@@ -25,11 +25,11 @@
         <ul>
             <li>
                 <label for="uname">User name:</label>
-                <input type="text" name="uname" id="uname" minlength="5" maxlength="20" pattern="^[a-z][.][a-z0-9]+" required>
+                <input type="text" name="uname" id="uname" minlength="5" maxlength="20" pattern="^[a-z][.][a-z\d]+" required>
             </li>
             <li>
                 <label for="email">Email address:</label>
-                <input type="email" name="email" id="email" pattern="^[a-zA-Z1-9]*(@bigcorp.eu)$" required>
+                <input type="email" name="email" id="email" pattern="^[a-zA-Z\d]+(@bigcorp.eu)" required>
             </li>
             <li>
                 <label for="phone">Phone number:</label>
